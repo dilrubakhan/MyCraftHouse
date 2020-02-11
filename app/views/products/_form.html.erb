@@ -12,28 +12,32 @@
   <% end %>
 
 <!-- Default form-->
-  <div class="field">
+  <div class="form">
+  <div class="input-field">
     <%= form.label :name %>
     <%= form.text_field :name, id: :product_name %>
   </div>
-
-  <div class="field">
+  <br>
+  <div class="input-field materialze-textarea">
     <%= form.label :description %>
     <%= form.text_area :description, id: :product_description %>
   </div>
 
-  <div class="field">
+
+  <br>
+  <div class="input-field">
     <%= form.label :price %>
     <%= form.text_field :price, id: :product_price %>
   </div>
-
+<br>
   <div class="field">
     <%= form.label :image %>
     <%= form.file_field :image, id: :product_image %>
   </div>
-
+  <br>
   <div class="actions">
     <%= form.submit class: "btn waves-effect waves-light" %>
   </div>
-
 <% end %>
+</div>
+<br>

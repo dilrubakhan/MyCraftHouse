@@ -5,10 +5,16 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- Material Design CDN: Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
     <!-- font-awesome cdn -->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
   </head>
 
   <%= render 'layouts/header' %>
@@ -18,8 +24,9 @@
         <%= yield %>
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  </body>
     </div> <!--End Container -->
+  </body>
+
     <%= render 'layouts/footer' %>
 
 </html>
