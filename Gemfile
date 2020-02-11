@@ -30,6 +30,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'materialize-sass'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'font-awesome-sass'
-gem "paperclip",'~> 3.5.4'
+gem "paperclip",'~> 5.2.0'
 gem 'aws-sdk-core', '~> 2.0.0.rc8'
 gem 'rails-ujs', '~> 0.1.0'
