@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color:#CCCCCC;
+  color:#2E2F30;
+  font-family: Arial, Helvetica, Sans-Serif, serif;
+}
+
+main {
+  flex: 1 0 auto;
+}
+.link_color{
+  color: #730E15;
+}

@@ -1,0 +1,122 @@
+/* line 1, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/custom.css.scss */
+body {
+  display: -webkit-box;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  background-color: #CCCCCC;
+  color: #2E2F30;
+  font-family: Arial, Helvetica, Sans-Serif, serif;
+}
+
+/* line 10, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/custom.css.scss */
+main {
+  -webkit-box-flex: 1;
+          flex: 1 0 auto;
+}
+
+/* line 13, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/custom.css.scss */
+.link_color {
+  color: #730E15;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/material-design-icons/iconfont/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(/assets/material-design-icons/iconfont/MaterialIcons-Regular.woff2) format("woff2"), url(/assets/material-design-icons/iconfont/MaterialIcons-Regular.woff) format("woff"), url(/assets/material-design-icons/iconfont/MaterialIcons-Regular.ttf) format("truetype");
+}
+/* line 13, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/icons.scss */
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Rules for sizing the icon. */
+/* line 40, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/icons.scss */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+/* line 41, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/icons.scss */
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+/* line 42, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/icons.scss */
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+/* line 43, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/icons.scss */
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+/* line 46, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/icons.scss */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+/* line 47, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/icons.scss */
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+/* line 50, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/icons.scss */
+.material-icons.md-light {
+  color: white;
+}
+
+/* line 51, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/icons.scss */
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* line 53, C:/Users/rubat/RubymineProjects/MyCraftHouse/app/assets/stylesheets/icons.scss */
+.material-icons.md-soft {
+  color: rgba(255, 255, 255, 0.5);
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+@import "materialize";
+@import "icons.scss";
